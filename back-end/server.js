@@ -1,5 +1,4 @@
 import express from "express";
-
 import cors from "cors"
 import connectDatabase from "./config/MongoDb.js";
 import ImportData from "./DataImport.js";
