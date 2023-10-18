@@ -1,4 +1,5 @@
 import express from "express";
+import dotenv from "dotenv";
 import cors from "cors"
 import connectDatabase from "./config/MongoDb.js";
 import ImportData from "./DataImport.js";
@@ -7,7 +8,7 @@ import { errorHandler, notFound } from "./Middleware/Errors.js";
 import userRouter from "./Routes/UserRoutes.js";
 import orderRouter from "./Routes/orderRoutes.js";
 
-
+dotenv.config();
 connectDatabase();
 const app = express();
 app.use(express.json());
