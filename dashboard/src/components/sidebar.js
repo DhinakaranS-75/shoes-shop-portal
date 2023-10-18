@@ -25,7 +25,7 @@ const Sidebar = () => {
           <ul className="menu-aside">
             <li className="menu-item">
               <NavLink
-                activeClassName="active"
+                activeclassName="active"
                 className="menu-link"
                 to="/"
                 exact={true}
@@ -36,7 +36,7 @@ const Sidebar = () => {
             </li>
             <li className="menu-item">
               <NavLink
-                activeClassName="active"
+                activeclassName="active"
                 className="menu-link"
                 to="/products"
               >
@@ -46,7 +46,7 @@ const Sidebar = () => {
             </li>
             <li className="menu-item">
               <NavLink
-                activeClassName="active"
+                activeclassName="active"
                 className="menu-link"
                 to="/addproduct"
               >
@@ -56,7 +56,7 @@ const Sidebar = () => {
             </li>
             <li className="menu-item">
               <NavLink
-                activeClassName="active"
+                activeclassName="active"
                 className="menu-link"
                 to="/category"
               >
@@ -66,7 +66,7 @@ const Sidebar = () => {
             </li>
             <li className="menu-item">
               <NavLink
-                activeClassName="active"
+                activeclassName="active"
                 className="menu-link"
                 to="/orders"
               >
@@ -76,7 +76,7 @@ const Sidebar = () => {
             </li>
             <li className="menu-item">
               <NavLink
-                activeClassName="active"
+                activeclassName="active"
                 className="menu-link"
                 to="/users"
               >
@@ -86,7 +86,7 @@ const Sidebar = () => {
             </li>
             <li className="menu-item">
               <NavLink
-                activeClassName="active"
+                activeclassName="active"
                 className="menu-link disabled"
                 to="/sellers"
               >
@@ -97,7 +97,7 @@ const Sidebar = () => {
 
             <li className="menu-item">
               <NavLink
-                activeClassName="active"
+                activeclassName="active"
                 className="menu-link disabled"
                 to="/transaction"
               >
